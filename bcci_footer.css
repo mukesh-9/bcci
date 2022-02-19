@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+.entity_bcci_footer{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height:543px;
+    background-color: #070B59;
+}
+.center_div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:432px ;
+}
+.left_div{
+    display: flex;
+    width:34.5%px;
+    height: 432px;
+    background-image: url('left_img.png');
+    margin-top: 27px;
+}
+.bcci_details{
+    /* flex-direction: column; */
+    width:100%;
+    height:410px;
+}
+.bcci_logo{
+    text-align: center;
+    width: 100%;
+    height: 121px;
+    margin-top: 30px;
+}
+.bcci_logo img{
+   width: 78px;
+   height: 121px;
+}
+.contact_details{
+    margin-top: 29px;
+    width: 255px;
+    height: 220px;
+}
+.contact{
+    width:250px;
+    height:26px;
+}
+.contact span{
+    width: 109px;
+    height: 26px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left:95px;
+}
+.address{
+    width: 230px;
+    height: 160px;
+    margin-left: 35px;
+    margin-top: -5px;
+}
+.address p{
+    width: 170px;
+    height: 144px;
+    float: right;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 24px;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #8CA7C7; 
+}
+.match_details{
+    width: 245px;
+    height:250px;
+    margin-top: 10px;
+}
+.match{
+    display: flex;
+    flex-direction: column;
+    width: 245px;
+    height: 110px;
+}
+.match_info{
+    display: flex;
+    width: 245px;
+    height:40px;
+    margin-top: 20px;
+}
+.match_info span{
+    width: 83px;
+    height: 26px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    margin-left: 52px;
+}
+.domestic{
+    width: 250px;
+    height: 64px;
+    margin-top: 15px;
+}
+.domestic .link{
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #8CA7C7;
+    text-decoration: none;
+    margin-left: 52px;
+}
+.domestic .link:hover{
+    color: red;
+    transition-duration: 2s;
+}
+.players{
+    width: 250px;
+    height:40px;
+    margin-top:62px;
+}
+.players span{
+    width: 83px;
+    height: 26px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 52px; 
+}
+.middle_div{
+    display: flex;
+    flex-direction: row;
+    width:30.4%;
+    height:210px;
+    margin-top:50px;
+}
+.videos{
+    width:200px;
+    height:210px;
+}
+.video{
+    width:200px;
+    height:40px;
+    margin-top: 8px;
+}
+.video span{
+    width: 83px;
+    height: 26px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.news{
+    width:200px;
+    height:40px;
+    margin-top: 8px;
+}
+.news span{
+    width: 83px;
+    height: 26px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.video_link{
+    width: 200px;
+    height: 165px;
+}
+.video_link a{
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #8CA7C7;
+    text-decoration: none;
+}
+.video_link a:hover{
+    color: red;
+    transition-duration: 2s;
+}
+
+.right_div{
+    display: flex;
+    width:34.8%;
+    height: 432px;
+    margin-top: 27px;
+    background-image: url('right_img.png');
+}
+.more{
+    width:200px;
+    height:320px;
+    margin-top: 22px;
+}
+.right_div_more{
+    width:200px;
+    height:40px;
+    margin-top: 8px;
+}
+.right_div_more span{
+    width: 83px;
+    height: 26px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.right_div_link{
+    width: 200px;
+    height:280px;
+}
+.right_div_link a{
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #8CA7C7;
+    text-decoration: none;
+}
+.right_div_link a:hover{
+    color: red;
+    transition-duration: 2s;
+}
+.right_div_about{
+    width:200px;
+    height:40px;
+    margin-top: 8px;
+}
+.right_div_about span{
+    width: 83px;
+    height: 26px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.middle_lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 40px;
+    margin-top: -30px;
+}
+.follow{
+    width: 95px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.follow span{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+#bcci{
+    font-size: 16px;
+    font-weight: 800;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.lower_div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.bcci_mobile_no{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+    height: 24px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    color:#FFFFFF;
+    text-align: center;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    height: 24px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.term{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 24px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+}
+.term a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.policy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 24px;
+    font-size: 14px;
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+}
+.policy a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media only screen and (max-width:500px){
+    .entity_bcci_footer{
+        padding-bottom: 35px;
+        overflow: hidden;
+    }
+    .entity_bcci_footer, .center_div, .left_div, .middle_div, .right_div, .lower_div{
+      width: 100%;
+      height: 100%;
+      /* display: block; */
+      flex-direction: column;
+    }
+}
+ @media only screen and (max-width:500px){
+    .left_div{
+        width: 100%;
+        background-image: none;
+    }
+    .right_div{
+        width: 100%;
+        background-image: none;
+    }
+}
+@media only screen and (max-width:500px){
+    .bcci_logo{
+        display:block;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px){
+    .contact_details, .contact{
+        display: block;
+        margin-left:-35px;
+    }
+    .address{
+        display: block;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:500px){
+    .match_details{
+        display: block;
+        margin-top: -40px;
+        width: 100%;
+        margin-left: -30px;
+    }
+    .domestic{
+        display: block;
+        width: 100%;
+        margin-top:-5px;
+    }
+    .players{
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:500px){
+    .middle_div{
+        width: 100%;
+        display: block;
+    }
+}
+@media only screen and (max-width:500px){
+    .videos{
+        width: 100%;
+        display: block;
+        margin-left:23px;
+    }
+    .video{
+        display: block;
+        width: 100%;
+        margin-top:-50px;
+    }
+    .news{
+        display: block;
+        width: 100%;
+        margin-top: -10px;
+    }
+}
+@media only screen and (max-width:500px){
+    .right_div{
+        width: 100%;
+        display: block;
+    }
+}
+@media only screen and (max-width:500px){
+    .more{
+        width: 100%;
+        display: block;
+        margin-left: 23px;
+    }
+    .right_div_more{
+        margin-top: -55px;
+    }
+    .right_div_about{
+        margin-top: -100px;
+    }
+}
+@media only screen and (max-width:500px){
+    .middle_lower{
+        width: 100%;
+        display: flex;
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width:500px){
+    .bcci_mobile_no{
+        width: 100%;
+        display: block;
+    }
+    .copyright,.term{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .policy{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
